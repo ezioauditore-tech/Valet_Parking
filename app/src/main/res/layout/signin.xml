@@ -48,8 +48,10 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:paddingLeft="10dp"
+        android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textStyle="italic"
+        android:id="@+id/userin"
         android:inputType="text"
         android:layout_marginTop="20dp"
         android:textSize="18dp">
@@ -62,9 +64,11 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:hint="Password"
+        android:id="@+id/passin"
         android:textColorHint="@color/black"
         android:paddingLeft="12dp"
         android:layout_gravity="center"
+        android:textColor="@color/black"
         android:layout_marginTop="30dp"
         android:textSize="18dp"
         android:inputType="textPassword"
@@ -75,6 +79,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Forget Password"
+        android:id="@+id/forgetbtn"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:textSize="13dp"
@@ -89,6 +94,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:text="Sign In"
+        android:id="@+id/signinbtn"
         android:textStyle="bold"
         android:fontFamily="sans-serif-black">
 
@@ -118,6 +124,7 @@
             android:text="SignUp"
             android:textColor="@color/signup"
             android:textSize="13dp"
+            android:id="@+id/signup_click"
             android:textStyle="bold"></TextView>
 
     </LinearLayout>
