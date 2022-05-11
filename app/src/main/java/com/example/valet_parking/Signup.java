@@ -28,7 +28,7 @@ public class Signup extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Signup.this,Mapview.class);
+                Intent intent = new Intent(Signup.this,Drawer.class);
                 startActivity(intent);
                 finish();
             }

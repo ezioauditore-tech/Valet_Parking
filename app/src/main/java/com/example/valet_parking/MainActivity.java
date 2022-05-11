@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(  username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-                    Intent intent=new Intent(MainActivity.this,Mapview.class);
+                    Intent intent=new Intent(MainActivity.this,Drawer.class);
                     startActivity(intent);
                     finish();
 
